@@ -1,0 +1,14 @@
+azure-honeypot-sentinel/
+│
+├── README.md
+├── architecture/
+│   └── diagram.png
+├── kql/
+│   ├── failed_logins.kql
+│   ├── brute_force_detection.kql
+│   ├── geo_attack_map.kql
+├── dashboards/
+│   └── sentinel-workbook.json (optional)
+├── screenshots/
+│   ├── attack-map.png
+│   ├── logs.png
