@@ -15,14 +15,20 @@ In this homelab we will go through the steps to creating a Azure Sentinel Honeyp
 
 Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization Dashboard
 
-- Created a resource group, virtual machine and a virtual network
-- I had to configure the Network Security Group (NSG) and allow ANY inbound connections 
-- RDP into the VM I had created and turned off the firewall
-- Verified the VM was accessible from my personal device by pinging the public IP assigned to the VM
-- Created a Log Analytics Workspace, connected it to Microsoft Sentinel, configured the connector for "Windows Security Events via AMA", 
-- Created Data collection rule in Microsoft Sentinel
-- Enriched data by geolocation which in turn helped create the visual dashboards!
+- Understand honeypot deployment in cloud environments
+Configure and expose an Azure VM to simulate a vulnerable system and attract unauthorized access attempts.
 
+- Gain hands-on experience with log ingestion and SIEM workflows
+Ingest Windows Security Event logs into Azure Log Analytics and analyze them using Microsoft Sentinel.
+
+- Develop proficiency in Kusto Query Language (KQL)
+Write and optimize queries to detect authentication events, including successful and failed logins (Event IDs 4624 and 4625).
+
+- Detect and analyze brute-force attack patterns
+Identify repeated failed login attempts from single or distributed IP addresses.
+
+- Perform geolocation enrichment of threat data
+Use IP-based enrichment to map attacker origin (country, state, city) and identify attack trends.
 Overview: 
 
 # Step 1: Create a Microsoft Azure Account
