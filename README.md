@@ -50,6 +50,20 @@ Overview:
 
 # Step 4: Create Vulnerable Virtual Machine
 
+# Virtual Machine Details
+
+- Give your Virtual Machine a name (CORP-LAPTOP-EAST09)
+- Choose your region (US-EAST2)
+- Availability Options: No Infrastructure Redundancy
+- Security Type: Standard
+- Image: Windows 10 Enterprise, version 22H2 - x64 Gen1 (free services eligible)
+- Size: Default
+
+# Administrator Account: 
+
+- Set up a username and password for the virtual machine
+- The account and password you set for this virtual machine is the same credentials you will use when we remote into the VM via RDP
+
 <img width="1073" height="1712" alt="Creating-Virtual-Machine" src="https://github.com/user-attachments/assets/89d47863-4338-4d38-a1b9-8e0c7c5e5781" />
 <img width="1076" height="1712" alt="Creating-Virtual-Machine2" src="https://github.com/user-attachments/assets/addde12b-a751-44b8-aaee-5560e0c1cc04" />
 <img width="1077" height="1713" alt="Creating-Virtual-Machine3" src="https://github.com/user-attachments/assets/2482a053-28a6-4d87-b1c2-db9bbbd2b045" />
@@ -64,7 +78,8 @@ Overview:
 # Step 6: Configure NSG (Network Security Group) 
 
 - Select NSG in the resource group 
-- Create an Inbound Security Rule allowing any traffic to the VM
+- Delete the current RDP inbound rule
+- Create an Inbound Security Rule allowing any traffic to the VM:
 - The rule should look like this when creating it:
 
 <img width="1078" height="1863" alt="Configuring-NSG" src="https://github.com/user-attachments/assets/3dfcceef-f6b7-460b-8985-184d1f3bb137" />
