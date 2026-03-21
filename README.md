@@ -1,4 +1,8 @@
-# soc-honeypot-lab
+# Azure Sentinel (SIEM) Honeypot Home Lab
+
+<img width="358" height="198" alt="image" src="https://github.com/user-attachments/assets/1b3be7ab-5057-491b-a6ca-2d4f819138a7" />
+
+ 
 Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization Dashboard
 
 - Created a resource group, virtual machine and a virtual network
