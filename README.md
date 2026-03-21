@@ -31,5 +31,14 @@ Overview:
 
  <img width="1076" height="1754" alt="Creating-Resource-Group" src="https://github.com/user-attachments/assets/100d1134-4cee-438d-8a8d-1d219c37f48e" />
 
+ # Step 2: Create Virtual Network
+
+<img width="1079" height="1753" alt="Creating-Virtual-Network" src="https://github.com/user-attachments/assets/fa0314be-d9b9-4d26-90b6-d34dd49b16cd" />
+<img width="1078" height="1708" alt="Creating-Virtual-Network2" src="https://github.com/user-attachments/assets/bbc8cf41-6436-445e-9e4c-deddfd1a72f2" />
+<img width="1075" height="1754" alt="Creating-Virtual-Network3" src="https://github.com/user-attachments/assets/55ce932b-e874-40ff-a4af-74d9414590ec" />
+<img width="1078" height="1711" alt="Creating-Virtual-Network4" src="https://github.com/user-attachments/assets/577abb0d-42b1-42ec-bc52-b6fb223f491a" />
+
+
+
 
 
