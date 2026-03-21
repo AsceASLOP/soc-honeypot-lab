@@ -27,30 +27,7 @@ Overview:
 
 # Step 1: Create a Resource Group
 
+ <img width="1076" height="1754" alt="Creating-Resource-Group" src="https://github.com/user-attachments/assets/100d1134-4cee-438d-8a8d-1d219c37f48e" />
 
-Microsoft Azure 
-O Search resources, services, and docs (G+/) 
-Copilot 
-... 
-O 
-Home > Resource Manager | Resource groups 
-X 
-Create a resource group 
-... 
-Basics 
-Tags 
-Review + create 
-Resource group - A container that holds related resources for an Azure solution. The resource group can include all the 
-resources for the solution, or only those resources that you want to manage as a group. You decide how you want to 
-allocate resources to resource groups based on what makes the most sense for your organization. Learn more 
-Subscription * ( 
-Azure subscription 1 
-Resource group name * 
-RG-SOC-LAB1 
-Region * O 
-(US) East US 2 
-Previous 
-Nex 
-Review + create 
 
 
