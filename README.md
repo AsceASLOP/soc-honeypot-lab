@@ -27,6 +27,8 @@ Overview:
 
 # Step 1: Create a Resource Group
 
+- Name your resource group, click review + create 
+
  <img width="1076" height="1754" alt="Creating-Resource-Group" src="https://github.com/user-attachments/assets/100d1134-4cee-438d-8a8d-1d219c37f48e" />
 
 
