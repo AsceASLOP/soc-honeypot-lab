@@ -49,9 +49,38 @@ Overview:
 <img width="1077" height="1713" alt="Creating-Virtual-Machine3" src="https://github.com/user-attachments/assets/2482a053-28a6-4d87-b1c2-db9bbbd2b045" />
 <img width="1077" height="1713" alt="Creating-Virtual-Machine4" src="https://github.com/user-attachments/assets/bb94cb76-4812-40fb-a9d5-97c9e07bbf2c" />
 
-# Step 5: Check Resource Groups and verify the Virtual Network and Virtual Machine has been created and placed in the Resource Group
+# Step 5: Check Resource Groups 
+
+- Verify that the resources you had created within Azure are in the same region and resource group
 
 <img width="1076" height="1749" alt="Verify-Resource-Creations" src="https://github.com/user-attachments/assets/6905a64d-4a67-4463-99cd-c1904b303ebc" />
+
+# Step 6: Configure NSG (Network Security Group) 
+
+- Select NSG in the resource group 
+- Create an Inbound Security Rule allowing any traffic to the VM
+- The rule should look like this when creating it:
+
+<img width="1078" height="1863" alt="Configuring-NSG" src="https://github.com/user-attachments/assets/3dfcceef-f6b7-460b-8985-184d1f3bb137" />
+
+# Step 7: Conenct to the VM via RDP
+
+- In the resource group, if you click on the VM on the right pane it will display the public IP assigned to that VM 
+
+<img width="1078" height="1744" alt="VM-Public-IP" src="https://github.com/user-attachments/assets/42d0d35c-6100-4325-b330-5b30a5b00475" />
+
+# Step 8: Turn off Windows Firewall on VM 
+
+- Once you are remoted to the VM navigate to Windows Defense Firewall with Advanced Features and click on Windows Defender Firewall properties
+
+<img width="1076" height="781" alt="Windows-Defender-Firewall-Proprerties" src="https://github.com/user-attachments/assets/2be1ce98-36a4-4a2c-97f6-c4d6c509724d" />
+
+- The pane that pops up will display 4 tabs: Domain Profile, Private Profile, Public Profile and IPsec Settings. Disable Domain, Private and Public Profile
+
+<img width="403" height="461" alt="Windows-Defender-Firewall-Proprerties2" src="https://github.com/user-attachments/assets/f3cfb579-c4bc-4ee7-86e5-6ddf8b35a94b" />
+
+# Step 9: Once the firewall on the VM has been disabled, ping your VM machine from your desktop to verify that the VM is accessible from public internet 
+
 
 
 
