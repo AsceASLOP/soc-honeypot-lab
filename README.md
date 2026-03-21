@@ -2,6 +2,14 @@
 
 <img width="358" height="198" alt="image" src="https://github.com/user-attachments/assets/1b3be7ab-5057-491b-a6ca-2d4f819138a7" />
 
+# Overview 
+
+Build an Azure-based honeypot environment inspired by Josh Madakor’s lab to simulate real-world attack traffic. Collected and ingested SecurityEvent logs into Azure Log Analytics and Microsoft Sentinel. Developed custom KQL queries to detect failed logins, brute-force activity, and geolocation-based attack patterns. Design and implement a SOC-style dashboard to visualize attacker IPs, geographic distribution, and authentication trends.
+
+# Description
+
+In this homelab we will go through the steps to creating a Azure Sentinel Honeypot to be able to ingest real-time data for creating useful analytical dashboards. 
+
  
 Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization Dashboard
 
