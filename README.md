@@ -4,32 +4,28 @@
 
 # Project Summary 
 
-Build an Azure-based honeypot environment inspired by Josh Madakor’s lab to simulate real-world attack traffic. Collected and ingested SecurityEvent logs into Azure Log Analytics and Microsoft Sentinel. Developed custom KQL queries to detect failed logins, brute-force activity, and geolocation-based attack patterns. Design and implement a SOC-style dashboard to visualize attacker IPs, geographic distribution, and authentication trends.
+Deployed an Azure-based honeypot integrated with Microsoft Sentinel to capture and analyze real-world attack traffic. Developed KQL-based detections for brute-force activity, authentication anomalies, and geolocation-based attack patterns. Built a SOC-style dashboard to visualize attacker behavior and global threat distribution.
 
 # Description
 
-In this homelab we will go through the steps to creating a Azure Sentinel Honeypot to be able to ingest real-time data for creating useful analytical dashboards. Going step by step on setting up the entire environment. 
+Deployed an Azure-based honeypot integrated with Microsoft Sentinel to capture and analyze real-world attack traffic. Developed KQL-based detections for brute-force activity, authentication anomalies, and geolocation-based attack patterns. Built a SOC-style dashboard to visualize attacker behavior and global threat distribution.
 
  
 # Learning Objectives 
 
 Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization Dashboard
 
-- Understand honeypot deployment in cloud environments
-Configure and expose an Azure VM to simulate a vulnerable system and attract unauthorized access attempts.
+- Deploy a cloud-based honeypot using Azure Virtual Machines
 
-- Gain hands-on experience with log ingestion and SIEM workflows
-Ingest Windows Security Event logs into Azure Log Analytics and analyze them using Microsoft Sentinel.
+- Configure log ingestion into Log Analytics Workspace
 
-- Develop proficiency in Kusto Query Language (KQL)
-Write and optimize queries to detect authentication events, including successful and failed logins (Event IDs 4624 and 4625).
+- Develop KQL queries to detect authentication events (Event IDs 4624, 4625)
 
-- Detect and analyze brute-force attack patterns
-Identify repeated failed login attempts from single or distributed IP addresses.
+- Identify brute-force and credential spraying patterns
 
-- Perform geolocation enrichment of threat data
-Use IP-based enrichment to map attacker origin (country, state, city) and identify attack trends.
-Overview: 
+- Enrich logs with geolocation data for threat analysis
+
+- Build SOC-style dashboards using Microsoft Sentinel Workbooks
 
 # Step 1: Create a Microsoft Azure Account
 
