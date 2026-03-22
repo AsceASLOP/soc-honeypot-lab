@@ -84,7 +84,7 @@ Overview:
 
 <img width="1078" height="1863" alt="Configuring-NSG" src="https://github.com/user-attachments/assets/3dfcceef-f6b7-460b-8985-184d1f3bb137" />
 
-# Step 7: Conenct to the VM via RDP
+# Step 7: Connect to the VM via RDP
 
 - In the resource group, if you click on the VM on the right pane it will display the public IP assigned to that VM 
 
