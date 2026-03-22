@@ -105,6 +105,31 @@ Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization 
 
 <img width="523" height="211" alt="Ping-VM" src="https://github.com/user-attachments/assets/6d60a5a8-3884-4470-ba50-b9b48c450f53" />
 
+# Detection Logic
+
+- Failed Login Detection (Event ID 4625): Identifies unsuccessful authentication attempts to detect potential unauthorized access activity. High volumes of failed logins may indicate password guessing or enumeration attempts.
+- Brute Force Detection: Aggregates failed login attempts over a defined time intervals and flags IP exceeding a threshold
+- Geolocation-Based Analysis: Enriches IP address data using geolocation data to identify the origin of login attempts. Brings to light unusual geographic access patterns, high-risk regions and distributed attack sources
+
+# KQL Queries: 
+
+- Failed Login Attempts Per Account:
+
+<img width="1049" height="754" alt="Failed Login Attempts per account" src="https://github.com/user-attachments/assets/0e2f4474-90ee-4d94-8ac2-4372f9c2380c" />
+
+- Top Login Attempts by IP:
+
+<img width="1013" height="624" alt="Top Login Attempts by IP" src="https://github.com/user-attachments/assets/35687fd7-4780-4750-bc3f-e00edd24e781" />
+
+- Brute Force login attempts unique by IP:
+
+<img width="1025" height="892" alt="Unique IPs brute force attempts" src="https://github.com/user-attachments/assets/cccf822b-ec7f-4b93-99a7-f6627b232364" />
+
+- Login Attempts Per Country:
+
+<img width="1021" height="667" alt="Login Attempts Per Country" src="https://github.com/user-attachments/assets/a3fa6298-54f6-4178-9758-354a93dc1916" />
+
+
 # Step 10: Create Log Analytics Workspace
 
 - In Microsoft Azure go into the search bar and look up "Log Analytics Workspace"
