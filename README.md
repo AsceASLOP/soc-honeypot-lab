@@ -27,6 +27,8 @@ Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization 
 
 - Build SOC-style dashboards using Microsoft Sentinel Workbooks
 
+
+
 # Step 1: Create a Microsoft Azure Account
 
 - Microsoft offers $200 in Azure credit for 30 days when you first initally sign up (You will need to attach a credit card in order to sign up for the free trial but you can cancel it before your trial ends)
