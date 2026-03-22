@@ -122,14 +122,6 @@ Azure Honeypot with Microsoft Sentinel – Attack Detection &amp; Visualization 
 <img width="1013" height="624" alt="Top Login Attempts by IP" src="https://github.com/user-attachments/assets/35687fd7-4780-4750-bc3f-e00edd24e781" />
 
 - Brute Force login attempts unique by IP:
-Purpose:
-Detects potential brute-force attacks by identifying high volumes of failed login attempts from a single IP.
-
-Logic:
-Aggregates failed login events over time and counts attempts per IP. Flags IPs exceeding a defined threshold.
-
-Why it matters:
-Helps identify automated attack behavior targeting authentication systems
 
 <img width="1025" height="892" alt="Unique IPs brute force attempts" src="https://github.com/user-attachments/assets/cccf822b-ec7f-4b93-99a7-f6627b232364" />
 
